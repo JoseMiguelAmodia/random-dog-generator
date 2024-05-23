@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.nav-links{
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
+    position:absolute;
+}
+
+ul.nav-bar{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 10em;
+}
+ul.nav-bar li a{
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.background-image{
+    width: 100vw;
+    height: 100vh;position: fixed;
+    z-index: 0;
+    background-image: url('jm2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+.message{
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+}
+.message h4,h2{
+    text-transform: capitalize;
+}
+.message h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: 400;
+}
+.message h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5em;
+    text-transform: uppercase;
+}
+
+
+.aboutme{
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50vh;
+    left: 5vw;
+}
+.aboutme h4,p{
+    text-transform: capitalize;
+}
+.aboutme h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 400;
+}
+.aboutme p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    width: 700px;
+}
+
+.socmed{
+    z-index: 2;
+    position: absolute;
+    top: 80vh;
+    left: 5vw;
+    display: inline-flex;
+}
+.socmed h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 400;
+}
